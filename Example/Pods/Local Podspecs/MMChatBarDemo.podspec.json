@@ -1,6 +1,6 @@
 {
   "name": "MMChatBarDemo",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "summary": "just do it",
   "description": "MMChatBarDemo --- MQH chatbar,you should get it now",
   "homepage": "https://github.com/Mqhong/MMChatBarDemo",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/Mqhong/MMChatBarDemo.git",
-    "tag": "0.1.2"
+    "tag": "0.1.3"
   },
   "platforms": {
     "ios": "8.0"

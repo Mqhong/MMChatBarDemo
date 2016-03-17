@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'E4743F6E45E0E2C21DFCA762'
+               BlueprintIdentifier = '06F28113F81F41E79B253C73'
                BlueprintName = 'MMChatBarDemo'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'MMChatBarDemo.framework'>

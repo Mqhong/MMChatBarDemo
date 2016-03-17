@@ -25,7 +25,7 @@ let kMinHeight:CGFloat = 45.0
 /**
  *  MMChatBar代理事件，发送图片，地理位置，文字，语音信息等
  */
-@objc protocol MMChatBarDelegate:NSObjectProtocol{
+@objc public protocol MMChatBarDelegate:NSObjectProtocol{
     /**
      charbarFrame 改变回调
      
@@ -71,12 +71,12 @@ let kMinHeight:CGFloat = 45.0
 
 
 public class MMCharBar: UIView,UITextViewDelegate{
-//    UITextViewDelegate,UINavigationControllerDelegate,UIImagePickerControllerDelegate,Mp3RecorderDelegate,XMChatMoreViewDelegate,XMChatMoreViewDataSource,XMChatFaceViewDelegate,XMLocationControllerDelegat
+    //    UITextViewDelegate,UINavigationControllerDelegate,UIImagePickerControllerDelegate,Mp3RecorderDelegate,XMChatMoreViewDelegate,XMChatMoreViewDataSource,XMChatFaceViewDelegate,XMLocationControllerDelegat
     
-    var superViewHeight:CGFloat = 0.0
+    public var superViewHeight:CGFloat = 0.0
     weak var delegate : MMChatBarDelegate?
     
-//    var MP3:Mp3Recorder
+    //    var MP3:Mp3Recorder
     let voiceButton = UIButton()//切换录音模式按钮
     let voiceRecordButton = UIButton() //录音按钮
     
@@ -95,7 +95,7 @@ public class MMCharBar: UIView,UITextViewDelegate{
         self._init()
         self.setup()
     }
-
+    
     required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
@@ -106,23 +106,23 @@ public class MMCharBar: UIView,UITextViewDelegate{
         
         let topLine = UIImageView()
         topLine.backgroundColor = UIColor(red: 235/255.0, green: 236/255.0, blue: 238/255.0, alpha: 1.0)
-//        topLine.backgroundColor = UIColor.lightGrayColor()
+        //        topLine.backgroundColor = UIColor.lightGrayColor()
         topLine.frame =  CGRectMake(0, 0 , self.frame.size.width, self.frame.size.height)
         self.addSubview(topLine)
         
         
         
         //_faceview
-//        faceView = MMChatFaceView()
+        //        faceView = MMChatFaceView()
         faceView.frame = CGRectMake(0, self.superViewHeight, self.frame.size.width, kFunctionViewHeight)
-//        faceView.delegate = self
-//        faceView.backgroundColor = self.backgroundColor
+        //        faceView.delegate = self
+        //        faceView.backgroundColor = self.backgroundColor
         
         //moreView
         moreView.frame = CGRectMake(0, self.superViewHeight, self.frame.size.width, kFunctionViewHeight)
-//        moreView.delegate = self
-//        moreView.dataSource = self
-//        moreView.backgroundColor = self.backgroundColor
+        //        moreView.delegate = self
+        //        moreView.dataSource = self
+        //        moreView.backgroundColor = self.backgroundColor
         
         //textView
         textView.font = UIFont.systemFontOfSize(16)
@@ -132,7 +132,7 @@ public class MMCharBar: UIView,UITextViewDelegate{
         textView.returnKeyType = UIReturnKeyType.Send
         textView.layer.borderWidth = 0.5
         textView.layer.masksToBounds  = true
-//        textView.frame
+        //        textView.frame
         
         
         //voiceButton
@@ -150,11 +150,11 @@ public class MMCharBar: UIView,UITextViewDelegate{
         voiceRecordButton.titleLabel?.font = UIFont.systemFontOfSize(14)
         voiceRecordButton.setTitle("按住录音", forState: .Normal)
         
-//        [_voiceRecordButton addTarget:self action:@selector(startRecordVoice) forControlEvents:UIControlEventTouchDown];
-//        [_voiceRecordButton addTarget:self action:@selector(cancelRecordVoice) forControlEvents:UIControlEventTouchUpOutside];
-//        [_voiceRecordButton addTarget:self action:@selector(confirmRecordVoice) forControlEvents:UIControlEventTouchUpInside];
-//        [_voiceRecordButton addTarget:self action:@selector(updateCancelRecordVoice) forControlEvents:UIControlEventTouchDragExit];
-//        [_voiceRecordButton addTarget:self action:@selector(updateContinueRecordVoice) forControlEvents:UIControlEventTouchDragEnter];
+        //        [_voiceRecordButton addTarget:self action:@selector(startRecordVoice) forControlEvents:UIControlEventTouchDown];
+        //        [_voiceRecordButton addTarget:self action:@selector(cancelRecordVoice) forControlEvents:UIControlEventTouchUpOutside];
+        //        [_voiceRecordButton addTarget:self action:@selector(confirmRecordVoice) forControlEvents:UIControlEventTouchUpInside];
+        //        [_voiceRecordButton addTarget:self action:@selector(updateCancelRecordVoice) forControlEvents:UIControlEventTouchDragExit];
+        //        [_voiceRecordButton addTarget:self action:@selector(updateContinueRecordVoice) forControlEvents:UIControlEventTouchDragEnter];
         
         //moreButton
         moreButton.tag = 3
@@ -186,40 +186,40 @@ public class MMCharBar: UIView,UITextViewDelegate{
         self.textView.backgroundColor = UIColor.whiteColor()
         
         //bottomHeight
-//        if(self.faceView.superview == nil || self.moreButton.superview == nil){
-//            self.bottomHeight = max(self.keyboardFrame.size.height, max(self.faceView.frame.size.height, self.moreButton.frame.size.height))
-//        }else{
-//            print("CGFloat(DBL_MIN):\(CGFloat(DBL_MIN))")
-//            self.bottomHeight = self.keyboardFrame.size.height
-////                max(self.keyboardFrame.size.height, CGFloat(DBL_MIN))
-//        }
-//        print("self.bottomHeight:\(self.bottomHeight)")
+        //        if(self.faceView.superview == nil || self.moreButton.superview == nil){
+        //            self.bottomHeight = max(self.keyboardFrame.size.height, max(self.faceView.frame.size.height, self.moreButton.frame.size.height))
+        //        }else{
+        //            print("CGFloat(DBL_MIN):\(CGFloat(DBL_MIN))")
+        //            self.bottomHeight = self.keyboardFrame.size.height
+        ////                max(self.keyboardFrame.size.height, CGFloat(DBL_MIN))
+        //        }
+        //        print("self.bottomHeight:\(self.bottomHeight)")
         //rootViewController
-//        self.rootViewController = (UIApplication.sharedApplication().keyWindow?.rootViewController)!
+        //        self.rootViewController = (UIApplication.sharedApplication().keyWindow?.rootViewController)!
         
     }
     
     
     //MARK:UITextViewDelegate
-//    public func textViewDidChange(textView:UITextView) {
-//        
-//        var textviewFrame = self.textView.frame
-//        let textSize = self.textView.sizeThatFits(CGSizeMake(CGRectGetWidth(textviewFrame), 1000))
-//        let offset:CGFloat = 10
-////        print("\(__FUNCTION__)")
-//        textView.scrollEnabled = (textSize.height + 0.1 > kMaxHeight - offset)
-//        textviewFrame.size.height = max(34, min(kMaxHeight, textSize.height))
-//        
-//        var addBarFrame:CGRect = self.frame
-//        addBarFrame.size.height = textviewFrame.size.height + offset
-//        addBarFrame.origin.y = self.superViewHeight - self.bottomHeight - addBarFrame.size.height
-//        self.setFrame(Frme: addBarFrame, Animated: false)
-//        
-//        if(textView.scrollEnabled){
-//            textView.scrollRangeToVisible(NSMakeRange(textView.text.characters.count - 2, 1))
-//        }
-//        
-//    }
+    //    public func textViewDidChange(textView:UITextView) {
+    //
+    //        var textviewFrame = self.textView.frame
+    //        let textSize = self.textView.sizeThatFits(CGSizeMake(CGRectGetWidth(textviewFrame), 1000))
+    //        let offset:CGFloat = 10
+    ////        print("\(__FUNCTION__)")
+    //        textView.scrollEnabled = (textSize.height + 0.1 > kMaxHeight - offset)
+    //        textviewFrame.size.height = max(34, min(kMaxHeight, textSize.height))
+    //
+    //        var addBarFrame:CGRect = self.frame
+    //        addBarFrame.size.height = textviewFrame.size.height + offset
+    //        addBarFrame.origin.y = self.superViewHeight - self.bottomHeight - addBarFrame.size.height
+    //        self.setFrame(Frme: addBarFrame, Animated: false)
+    //
+    //        if(textView.scrollEnabled){
+    //            textView.scrollRangeToVisible(NSMakeRange(textView.text.characters.count - 2, 1))
+    //        }
+    //
+    //    }
     
     
     public func textViewDidChange(textView: UITextView) {
@@ -269,12 +269,12 @@ public class MMCharBar: UIView,UITextViewDelegate{
             self.setFrame(Frme: keyboardf, Animated: true)
         }
         print(self.keyboardFrame)
-//        self.textViewDidChange(self.textView)
-
+        //        self.textViewDidChange(self.textView)
+        
     }
     
     func setup(){
-//       self. mp3 = Mp3Recorder alloc initwithDelegate:self
+        //       self. mp3 = Mp3Recorder alloc initwithDelegate:self
         self.addSubview(self.voiceButton)
         self.addSubview(self.moreButton)
         self.addSubview(self.faceButton)
@@ -282,12 +282,12 @@ public class MMCharBar: UIView,UITextViewDelegate{
         self.textView.addSubview(self.voiceRecordButton)
         
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "keyboardWillHide:", name: UIKeyboardWillHideNotification, object: nil)
-
+        
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "keyboardFrameWillChange:", name: UIKeyboardWillShowNotification, object: nil)
-//        UIKeyboardWillChangeFrameNotification
+        //        UIKeyboardWillChangeFrameNotification
     }
     
-
+    
     func showViewWithType(showType:MMFunctionViewShowType){
         
         //显示对应的View
@@ -307,13 +307,13 @@ public class MMCharBar: UIView,UITextViewDelegate{
             let showframe = CGRectMake(0, self.superViewHeight - kFunctionViewHeight - self.textView.frame.size.height - 10, self.frame.size.width, self.textView.frame.size.height + 10)
             self.setFrame(Frme: showframe, Animated: false)
             self.textView.resignFirstResponder()
-//            self.textViewDidChange(self.textView)
+            //            self.textViewDidChange(self.textView)
             break
             
         case .MMFunctionViewShowKeyboard:
             self.textView.text = self.inputText
-//            self.textViewDidChange(self.textView)
-//            self.inputText = ""
+            //            self.textViewDidChange(self.textView)
+            //            self.inputText = ""
         }
     }
     
@@ -363,7 +363,7 @@ public class MMCharBar: UIView,UITextViewDelegate{
             
             UIView.animateWithDuration(0.25, animations: { () -> Void in
                 
-            self.faceView.frame = CGRectMake(0, self.superViewHeight - kFunctionViewHeight, self.frame.size.width, kFunctionViewHeight)
+                self.faceView.frame = CGRectMake(0, self.superViewHeight - kFunctionViewHeight, self.frame.size.width, kFunctionViewHeight)
                 
                 }, completion: nil)
             
@@ -377,7 +377,7 @@ public class MMCharBar: UIView,UITextViewDelegate{
             })
         }
     }
-
+    
     
     /**
      显示moreView
@@ -392,13 +392,13 @@ public class MMCharBar: UIView,UITextViewDelegate{
             self.superview?.addSubview(self.moreView)
             
             self.moreView.frame = CGRectMake(0, self.superViewHeight,  self.frame.size.width, 0)
-
+            
             UIView.animateWithDuration(0.25, animations: { () -> Void in
                 self.moreView.frame = CGRectMake(0, self.superViewHeight - kFunctionViewHeight, self.frame.size.width, kFunctionViewHeight)
             })
         }else{
             UIView.animateWithDuration(0.15, animations: { () -> Void in
-                 self.moreView.frame = CGRectMake(0, self.superViewHeight, self.frame.size.width, kFunctionViewHeight)
+                self.moreView.frame = CGRectMake(0, self.superViewHeight, self.frame.size.width, kFunctionViewHeight)
                 }, completion: { (finished:Bool) -> Void in
                     self.moreView.removeFromSuperview()
             })
@@ -415,18 +415,18 @@ public class MMCharBar: UIView,UITextViewDelegate{
         if(animated){
             UIView.animateWithDuration(0.3, animations: { () -> Void in
                 self.frame = frame
-                })
+            })
         }else{
             self.frame = frame
         }
-            self.delegate?.chatBar_Frame_DidChange!(self, frame: frame)
+        self.delegate?.chatBar_Frame_DidChange!(self, frame: frame)
     }
     
     public override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
         print("点击了chatbar")
     }
     
-     deinit{
+    deinit{
         NSNotificationCenter.defaultCenter().removeObserver(self, name: UIKeyboardWillChangeFrameNotification, object: nil)
         NSNotificationCenter.defaultCenter().removeObserver(self, name: UIKeyboardWillHideNotification, object: nil)
         
@@ -436,8 +436,8 @@ public class MMCharBar: UIView,UITextViewDelegate{
     // Only override drawRect: if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.
     override func drawRect(rect: CGRect) {
-        // Drawing code
+    // Drawing code
     }
     */
-
+    
 }
