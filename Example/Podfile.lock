@@ -4,7 +4,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.0.7)
   - FBSnapshotTestCase/SwiftSupport (2.0.7):
     - FBSnapshotTestCase/Core
-  - MMChatBarDemo (0.1.1)
+  - MMChatBarDemo (0.1.2)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -16,6 +16,6 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 7e85180d0d141a0cf472352edda7e80d7eaeb547
-  MMChatBarDemo: ec1eac182d1b49343fbceaa9af077791e6f7b137
+  MMChatBarDemo: 303332dda3442b14273a1304202a6a7ca64b56a9
 
 COCOAPODS: 0.39.0
