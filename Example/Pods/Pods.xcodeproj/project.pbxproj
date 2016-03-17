@@ -8,44 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		1030B984A41F5D4B8A91F3AE31082D1B /* Pods-MMChatBarDemo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EC34599A94225724B4C06EFF712FC9F /* Pods-MMChatBarDemo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14442D89B4A1B92E2CEF751C134F4195 /* MMCharBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEAF6F84B10444168D829C39CAFE4D7 /* MMCharBar.swift */; };
 		14CEAB25EAAA2074BE35ED2E1E4EA1DA /* Pods-MMChatBarDemo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C24937417CB694DA16962B95EF9872 /* Pods-MMChatBarDemo_Example-dummy.m */; };
 		163C6E8E5E7CEE1E0BEEB9CA0939DA3A /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 73003A0752F3CABAA497D1FD1F5E4E44 /* UIImage+Diff.m */; };
+		1C58B23D139307EA0CCC4946B09001ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31B096AB4A0164C61B63F0E59AD76C9 /* Foundation.framework */; };
 		1F118728B3D74089480152A6B660EA9A /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = A729E2AD854B4CEB4EF52289C017EB3B /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		218EAAC1A91A512AC0EF5A9D77634764 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A83D3417C7313F4F5644EC6EB8717EC /* ReplaceMe.swift */; };
-		264ACE71F498052F3E5B1B004B8894B0 /* MMChatBarDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6E786A882FF0DAF03679417E218C3D /* MMChatBarDemo-dummy.m */; };
 		28F2071FFF5C5B0E9DEB6C3FE43A30CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2393D1A899C707F79A64672C46ED238F /* UIKit.framework */; };
 		3413C7F61C4ADB7B3771C0C9424DD232 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31B096AB4A0164C61B63F0E59AD76C9 /* Foundation.framework */; };
 		35848D70EAC9237246BDF63457729694 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2523693A8A7BA4278BFC866F16021FFF /* FBSnapshotTestCase.m */; };
 		41D8739E2720D3535592391C25507158 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 12CC4BD9C5F6D514C917D7942DF2D2F4 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		45C7DDC23E82EFC4507634E4631171FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31B096AB4A0164C61B63F0E59AD76C9 /* Foundation.framework */; };
 		52B0263F90696E7FD87CB146D5C5E2C1 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CAAAB29C54DB2D5220028C4110E45E6 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		52F7A46AB0053D8BB1D793B917D37BB2 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE5208FE4A05C9114818BC72105E5F7 /* SwiftSupport.swift */; };
 		5D14695A69EC4A8DF7488D0FC59C105C /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = E38041D93EDE9398D62F150F8F25DE47 /* FBSnapshotTestCasePlatform.m */; };
 		723FDDFD804188090511DEFA8309A06B /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0345D737618C6A063BD152389ACCBF87 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		788E3D9458FE9540469981BE9A0B227C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 5999002674B86E70DC7970CEA62F278E /* UIImage+Compare.m */; };
-		7A85FCBB6D1639EF94FB654B2A1326B4 /* MMChatBarDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA2D9A9C49482420AD57A32C476CFD2E /* MMChatBarDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7BEF20E09F0E864478905311672F91AB /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AC2C5814DCFC7590AC8C46AAB7FCEEF /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		821A26883ED14BDCD7EBADD37D671D17 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE4692BF9A76DAAA67A8FF4DABD27E8 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D549E01DA1D5104335CCEABFF870005 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31B096AB4A0164C61B63F0E59AD76C9 /* Foundation.framework */; };
+		98EF58296B52D8A37975664AD36DB461 /* MMChatMoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C70C7C9791A20C4CEB9E0DEB162DD3F /* MMChatMoreView.swift */; };
 		991701FCB062A71986D961F933070539 /* Pods-MMChatBarDemo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E97F21BB07619231A3343195055190C2 /* Pods-MMChatBarDemo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA8501741ABB8D75C6C47DE086BACD37 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFD97972C24EE7435D0E04686569BBE /* FBSnapshotTestController.m */; };
 		AD4D905241DED4AEAD67447088ACB23D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 853C84AC883B6FC690E82525E7ECB377 /* XCTest.framework */; };
-		B269BB677A5E39EA844DA99E1FA56848 /* MMChatBarDemo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6B0C5E3F8ED7CDF525B1D8B7E0195D9E /* MMChatBarDemo.bundle */; };
+		B9197C7E6D46AAC8B062C27F0DFF55AB /* MMFaceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C8149F41CAF76A9E4940CA3C140E93 /* MMFaceManager.swift */; };
 		C86349476EE9D5A894FC3B331C2A8766 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31B096AB4A0164C61B63F0E59AD76C9 /* Foundation.framework */; };
+		C8955AF1D495D321AC120A2F5D045579 /* MMChatFaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6569554CCF72F435B71D14ACE72F88C6 /* MMChatFaceView.swift */; };
 		CC2BD0A04199B280AD93F459968CAFC2 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF90F95FC2B36AB64D2FB3AF22E996D2 /* FBSnapshotTestCase-dummy.m */; };
 		CF9DB2096C715EA61E263021EE406DB1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0528444EFC68619AD1FEB8A7CD4A01BA /* QuartzCore.framework */; };
+		DF4D35AAE384FFDD79099EE2C8713A0A /* MMChatBarDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D62D729B982CE444F508688F6D71AD9B /* MMChatBarDemo-dummy.m */; };
+		E9B7A1C6156C7B86C1788F3ED5F51E23 /* MMChatBarDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB84F53D6B6932413BA16A012D1781ED /* MMChatBarDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EDD91D0CC316AC322E1607D3749F1C0A /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 5121BCE99CCFB208275F3437CCF6EBB6 /* UIImage+Snapshot.m */; };
 		F44634F9E0D92557EE13A774061F1311 /* Pods-MMChatBarDemo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9620B81108069320452CA02F83974077 /* Pods-MMChatBarDemo_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2E60CBE37EFC9F448959B1278ED6498C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 608A94AF565BAAC9D4250C1B192EBAAB;
-			remoteInfo = "MMChatBarDemo-MMChatBarDemo";
-		};
 		3478759D91408055ABBC6FF7D89EE0A9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -57,14 +52,14 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E3D456227D7EA54D08C4152CFD344E56;
+			remoteGlobalIDString = 1B7B4AA76069C7C33E54373C92653D99;
 			remoteInfo = MMChatBarDemo;
 		};
 		CDEB824C1CE0A489C6E61B25A19E3BF7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E3D456227D7EA54D08C4152CFD344E56;
+			remoteGlobalIDString = 1B7B4AA76069C7C33E54373C92653D99;
 			remoteInfo = MMChatBarDemo;
 		};
 /* End PBXContainerItemProxy section */
@@ -78,31 +73,32 @@
 		0F01AA0F45B0B5CC535F9884FF44262A /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		0FF92565987ABB85D5DB4ED116D4CB00 /* Pods-MMChatBarDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMChatBarDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		12CC4BD9C5F6D514C917D7942DF2D2F4 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		16B69FD7E570A06AF970819ABD5003C4 /* Pods_MMChatBarDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMChatBarDemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EC34599A94225724B4C06EFF712FC9F /* Pods-MMChatBarDemo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MMChatBarDemo_Example-umbrella.h"; sourceTree = "<group>"; };
 		22450EB05CE9FC7919AECC5060A4E7FB /* Pods-MMChatBarDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMChatBarDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2393D1A899C707F79A64672C46ED238F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		2523693A8A7BA4278BFC866F16021FFF /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		2540FBB4226D305DFE085A5129966D75 /* Pods-MMChatBarDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMChatBarDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		293BA53C57043B7C7AF886097D51B98D /* MMChatBarDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MMChatBarDemo.modulemap; sourceTree = "<group>"; };
+		2C70C7C9791A20C4CEB9E0DEB162DD3F /* MMChatMoreView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MMChatMoreView.swift; sourceTree = "<group>"; };
 		38C086158C70A144E7D3AF4919E76BF3 /* Pods-MMChatBarDemo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MMChatBarDemo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3CDD9962E7C6687DEEC40FC2F5F6DC17 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D4FA44C8B7EF66141923975A28878C3 /* Pods-MMChatBarDemo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MMChatBarDemo_Example-frameworks.sh"; sourceTree = "<group>"; };
 		42A681D3AF997235908A3089BB9BCB20 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
+		48DAE89D0E3B17C7412AF5E4F849039A /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AC2C5814DCFC7590AC8C46AAB7FCEEF /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		5121BCE99CCFB208275F3437CCF6EBB6 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		5999002674B86E70DC7970CEA62F278E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		6A83D3417C7313F4F5644EC6EB8717EC /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
-		6B0C5E3F8ED7CDF525B1D8B7E0195D9E /* MMChatBarDemo.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMChatBarDemo.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		6BFEAD044EB390B3CE0CD8697CBF6586 /* MMChatBarDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MMChatBarDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6453F30F461BF87652F24C179459BA0A /* MMChatBarDemo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMChatBarDemo-prefix.pch"; sourceTree = "<group>"; };
+		6569554CCF72F435B71D14ACE72F88C6 /* MMChatFaceView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MMChatFaceView.swift; sourceTree = "<group>"; };
 		70754560D53E6D2EE7F8CB083EEE1166 /* Pods-MMChatBarDemo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MMChatBarDemo_Example.modulemap"; sourceTree = "<group>"; };
 		73003A0752F3CABAA497D1FD1F5E4E44 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		7CAAAB29C54DB2D5220028C4110E45E6 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		7D3F86006CD64D3276522A4D94C55FDC /* Pods_MMChatBarDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMChatBarDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		853C84AC883B6FC690E82525E7ECB377 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		85C8149F41CAF76A9E4940CA3C140E93 /* MMFaceManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MMFaceManager.swift; sourceTree = "<group>"; };
+		9318F6353DDB9B9B0879A8DD1DE18409 /* MMChatBarDemo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMChatBarDemo.xcconfig; sourceTree = "<group>"; };
 		9620B81108069320452CA02F83974077 /* Pods-MMChatBarDemo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MMChatBarDemo_Tests-dummy.m"; sourceTree = "<group>"; };
-		A385A224F0C6DA028B11D4F728A86614 /* MMChatBarDemo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMChatBarDemo.xcconfig; sourceTree = "<group>"; };
 		A729E2AD854B4CEB4EF52289C017EB3B /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		A9B16706F3509017FE5F810FD52F7F2A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AA2D9A9C49482420AD57A32C476CFD2E /* MMChatBarDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMChatBarDemo-umbrella.h"; sourceTree = "<group>"; };
 		AC397C48A19103CBCBB0579EE75A2C5D /* Pods-MMChatBarDemo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MMChatBarDemo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B3D08C65AB18ACF0D05C7C79DB5737E4 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		B56A7A271F69EBEAA077A71985762100 /* Pods-MMChatBarDemo_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MMChatBarDemo_Example-resources.sh"; sourceTree = "<group>"; };
@@ -110,21 +106,22 @@
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BFFD97972C24EE7435D0E04686569BBE /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		C049DC054F25ADFC6EB7CD8589960F2E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C2B4E44427E34E6E183B63B4CEF11D90 /* Pods_MMChatBarDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMChatBarDemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C87C2801077DFB4F9D80FF91200FF7F5 /* MMChatBarDemo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMChatBarDemo-prefix.pch"; sourceTree = "<group>"; };
-		CE6E786A882FF0DAF03679417E218C3D /* MMChatBarDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMChatBarDemo-dummy.m"; sourceTree = "<group>"; };
+		CB84F53D6B6932413BA16A012D1781ED /* MMChatBarDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMChatBarDemo-umbrella.h"; sourceTree = "<group>"; };
 		CF13883C0A2FE8CA94CB1A8AEE1757A2 /* Pods-MMChatBarDemo_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MMChatBarDemo_Tests-resources.sh"; sourceTree = "<group>"; };
 		D31B096AB4A0164C61B63F0E59AD76C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D62D729B982CE444F508688F6D71AD9B /* MMChatBarDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMChatBarDemo-dummy.m"; sourceTree = "<group>"; };
+		DF2C6FD97597AB1B55D8396AEA587AB0 /* MMChatBarDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MMChatBarDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF90F95FC2B36AB64D2FB3AF22E996D2 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		DF974D60DA74325D9174C1EA704E35FD /* Pods-MMChatBarDemo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MMChatBarDemo_Tests.modulemap"; sourceTree = "<group>"; };
 		E38041D93EDE9398D62F150F8F25DE47 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		E520E7FC51C681FFCC814911000A194C /* Pods-MMChatBarDemo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MMChatBarDemo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E7A0CD2E92F4D228200E1E62073FDA3B /* MMChatBarDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MMChatBarDemo.modulemap; sourceTree = "<group>"; };
 		E97F21BB07619231A3343195055190C2 /* Pods-MMChatBarDemo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MMChatBarDemo_Tests-umbrella.h"; sourceTree = "<group>"; };
-		F03FFA66B272FF784D87A3510A658CC1 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAEAF6F84B10444168D829C39CAFE4D7 /* MMCharBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MMCharBar.swift; sourceTree = "<group>"; };
 		F1C24937417CB694DA16962B95EF9872 /* Pods-MMChatBarDemo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MMChatBarDemo_Example-dummy.m"; sourceTree = "<group>"; };
 		F91CBAC859F2930AB05F03668A72BF4E /* Pods-MMChatBarDemo_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MMChatBarDemo_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		FBE758BBBD7433EA883C656A74407A75 /* Pods_MMChatBarDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMChatBarDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDE5208FE4A05C9114818BC72105E5F7 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		FF43B68D400E0D5DDA1D68779EAE227F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,11 +141,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7DE7317970F9CF2F8CF2BFD903E86B71 /* Frameworks */ = {
+		231C6C2CE2DE7726EF5F626C4FEE7224 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45C7DDC23E82EFC4507634E4631171FA /* Foundation.framework in Frameworks */,
+				1C58B23D139307EA0CCC4946B09001ED /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,13 +157,6 @@
 				CF9DB2096C715EA61E263021EE406DB1 /* QuartzCore.framework in Frameworks */,
 				28F2071FFF5C5B0E9DEB6C3FE43A30CC /* UIKit.framework in Frameworks */,
 				AD4D905241DED4AEAD67447088ACB23D /* XCTest.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CFAEC4A8487A1847C04CD93BD8FDD389 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,7 +183,7 @@
 		1BE76EE9D7ECEDC0E9147D681F50AA73 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				67755FA00FBF21E9580C25767C668676 /* MMChatBarDemo */,
+				4664D2119331D734A937BD9F118FA398 /* MMChatBarDemo */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -206,12 +196,28 @@
 			name = SwiftSupport;
 			sourceTree = "<group>";
 		};
-		38B36160B439D330A7575A7CC78E5406 /* Classes */ = {
+		375CF70AA758BCFFD15E421B52EA2922 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6A83D3417C7313F4F5644EC6EB8717EC /* ReplaceMe.swift */,
+				FF43B68D400E0D5DDA1D68779EAE227F /* Info.plist */,
+				E7A0CD2E92F4D228200E1E62073FDA3B /* MMChatBarDemo.modulemap */,
+				9318F6353DDB9B9B0879A8DD1DE18409 /* MMChatBarDemo.xcconfig */,
+				D62D729B982CE444F508688F6D71AD9B /* MMChatBarDemo-dummy.m */,
+				6453F30F461BF87652F24C179459BA0A /* MMChatBarDemo-prefix.pch */,
+				CB84F53D6B6932413BA16A012D1781ED /* MMChatBarDemo-umbrella.h */,
 			);
-			path = Classes;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MMChatBarDemo";
+			sourceTree = "<group>";
+		};
+		4664D2119331D734A937BD9F118FA398 /* MMChatBarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B168201C77AF4599DDB0F9D964C6028E /* MMChatBarClass */,
+				375CF70AA758BCFFD15E421B52EA2922 /* Support Files */,
+			);
+			name = MMChatBarDemo;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		5060B33D8CFD3C2E88D6F156E54E3265 /* Core */ = {
@@ -233,28 +239,6 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		54F6E1923A44212C4234C2CF416C578C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				F03FFA66B272FF784D87A3510A658CC1 /* FBSnapshotTestCase.framework */,
-				6B0C5E3F8ED7CDF525B1D8B7E0195D9E /* MMChatBarDemo.bundle */,
-				6BFEAD044EB390B3CE0CD8697CBF6586 /* MMChatBarDemo.framework */,
-				FBE758BBBD7433EA883C656A74407A75 /* Pods_MMChatBarDemo_Example.framework */,
-				C2B4E44427E34E6E183B63B4CEF11D90 /* Pods_MMChatBarDemo_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		67755FA00FBF21E9580C25767C668676 /* MMChatBarDemo */ = {
-			isa = PBXGroup;
-			children = (
-				959CDE068121C8350C4E6B6EC7F0FC18 /* Pod */,
-				B252A79EB74AC3504C6C729AF0C56A7D /* Support Files */,
-			);
-			name = MMChatBarDemo;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -262,7 +246,7 @@
 				1BE76EE9D7ECEDC0E9147D681F50AA73 /* Development Pods */,
 				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
 				FBD2D672921284E66F309CA3462F84D6 /* Pods */,
-				54F6E1923A44212C4234C2CF416C578C /* Products */,
+				D64181E27BD6D27BC89BE6049605CD21 /* Products */,
 				1B24D3329C8A25E2CE5FFB5DC1E6663F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -275,14 +259,6 @@
 				329CC004AB83B695DB001E6BBD6F7707 /* SwiftSupport */,
 			);
 			path = FBSnapshotTestCase;
-			sourceTree = "<group>";
-		};
-		959CDE068121C8350C4E6B6EC7F0FC18 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				38B36160B439D330A7575A7CC78E5406 /* Classes */,
-			);
-			path = Pod;
 			sourceTree = "<group>";
 		};
 		A3B1066CAD990BB478181B7474CF1212 /* Pods-MMChatBarDemo_Tests */ = {
@@ -316,18 +292,15 @@
 			path = "../Target Support Files/FBSnapshotTestCase";
 			sourceTree = "<group>";
 		};
-		B252A79EB74AC3504C6C729AF0C56A7D /* Support Files */ = {
+		B168201C77AF4599DDB0F9D964C6028E /* MMChatBarClass */ = {
 			isa = PBXGroup;
 			children = (
-				A9B16706F3509017FE5F810FD52F7F2A /* Info.plist */,
-				293BA53C57043B7C7AF886097D51B98D /* MMChatBarDemo.modulemap */,
-				A385A224F0C6DA028B11D4F728A86614 /* MMChatBarDemo.xcconfig */,
-				CE6E786A882FF0DAF03679417E218C3D /* MMChatBarDemo-dummy.m */,
-				C87C2801077DFB4F9D80FF91200FF7F5 /* MMChatBarDemo-prefix.pch */,
-				AA2D9A9C49482420AD57A32C476CFD2E /* MMChatBarDemo-umbrella.h */,
+				EAEAF6F84B10444168D829C39CAFE4D7 /* MMCharBar.swift */,
+				6569554CCF72F435B71D14ACE72F88C6 /* MMChatFaceView.swift */,
+				2C70C7C9791A20C4CEB9E0DEB162DD3F /* MMChatMoreView.swift */,
+				85C8149F41CAF76A9E4940CA3C140E93 /* MMFaceManager.swift */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MMChatBarDemo";
+			path = MMChatBarClass;
 			sourceTree = "<group>";
 		};
 		CD3FB7D37E46A5379C926728A416D78E /* iOS */ = {
@@ -339,6 +312,17 @@
 				853C84AC883B6FC690E82525E7ECB377 /* XCTest.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		D64181E27BD6D27BC89BE6049605CD21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48DAE89D0E3B17C7412AF5E4F849039A /* FBSnapshotTestCase.framework */,
+				DF2C6FD97597AB1B55D8396AEA587AB0 /* MMChatBarDemo.framework */,
+				7D3F86006CD64D3276522A4D94C55FDC /* Pods_MMChatBarDemo_Example.framework */,
+				16B69FD7E570A06AF970819ABD5003C4 /* Pods_MMChatBarDemo_Tests.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		F240B45FF6EB0258A62E10F1CA1949C3 /* Pods-MMChatBarDemo_Example */ = {
@@ -378,6 +362,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		49737A8B3F37F8F6969B50E07296DF02 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B7A1C6156C7B86C1788F3ED5F51E23 /* MMChatBarDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6A3BB9E32BDAD9EDB00EDFE657BDB001 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -388,14 +380,6 @@
 				1F118728B3D74089480152A6B660EA9A /* UIImage+Compare.h in Headers */,
 				52B0263F90696E7FD87CB146D5C5E2C1 /* UIImage+Diff.h in Headers */,
 				723FDDFD804188090511DEFA8309A06B /* UIImage+Snapshot.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		83A0A3B729F9CD90C11CEFA0EF6A5BA7 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7A85FCBB6D1639EF94FB654B2A1326B4 /* MMChatBarDemo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +394,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		1B7B4AA76069C7C33E54373C92653D99 /* MMChatBarDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98236D2939BCEB926284E0004350661C /* Build configuration list for PBXNativeTarget "MMChatBarDemo" */;
+			buildPhases = (
+				EF711741DA901BF29B00AB345A86115A /* Sources */,
+				231C6C2CE2DE7726EF5F626C4FEE7224 /* Frameworks */,
+				49737A8B3F37F8F6969B50E07296DF02 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMChatBarDemo;
+			productName = MMChatBarDemo;
+			productReference = DF2C6FD97597AB1B55D8396AEA587AB0 /* MMChatBarDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		33F54F0166F76005F6FFB0B47FF92528 /* Pods-MMChatBarDemo_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B2A6B2B0A9A3C7E91D8FA4C9399A4E6 /* Build configuration list for PBXNativeTarget "Pods-MMChatBarDemo_Tests" */;
@@ -426,25 +427,8 @@
 			);
 			name = "Pods-MMChatBarDemo_Tests";
 			productName = "Pods-MMChatBarDemo_Tests";
-			productReference = C2B4E44427E34E6E183B63B4CEF11D90 /* Pods_MMChatBarDemo_Tests.framework */;
+			productReference = 16B69FD7E570A06AF970819ABD5003C4 /* Pods_MMChatBarDemo_Tests.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		608A94AF565BAAC9D4250C1B192EBAAB /* MMChatBarDemo-MMChatBarDemo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7A7CA3944205B9B18200DBC67A5A9002 /* Build configuration list for PBXNativeTarget "MMChatBarDemo-MMChatBarDemo" */;
-			buildPhases = (
-				E88DCDFA646FCA005511CC72875D0914 /* Sources */,
-				CFAEC4A8487A1847C04CD93BD8FDD389 /* Frameworks */,
-				FD8468268B6786F781BFD0AD7B37C3BD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "MMChatBarDemo-MMChatBarDemo";
-			productName = "MMChatBarDemo-MMChatBarDemo";
-			productReference = 6B0C5E3F8ED7CDF525B1D8B7E0195D9E /* MMChatBarDemo.bundle */;
-			productType = "com.apple.product-type.bundle";
 		};
 		9D2DB5FF38D4402180FFD74AF16DF1BF /* Pods-MMChatBarDemo_Example */ = {
 			isa = PBXNativeTarget;
@@ -461,7 +445,7 @@
 			);
 			name = "Pods-MMChatBarDemo_Example";
 			productName = "Pods-MMChatBarDemo_Example";
-			productReference = FBE758BBBD7433EA883C656A74407A75 /* Pods_MMChatBarDemo_Example.framework */;
+			productReference = 7D3F86006CD64D3276522A4D94C55FDC /* Pods_MMChatBarDemo_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A5C935B614DD08342117AD0B06959CB9 /* FBSnapshotTestCase */ = {
@@ -478,26 +462,7 @@
 			);
 			name = FBSnapshotTestCase;
 			productName = FBSnapshotTestCase;
-			productReference = F03FFA66B272FF784D87A3510A658CC1 /* FBSnapshotTestCase.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		E3D456227D7EA54D08C4152CFD344E56 /* MMChatBarDemo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DCD5C0F9F2DB7B1568B22D3BFB936C30 /* Build configuration list for PBXNativeTarget "MMChatBarDemo" */;
-			buildPhases = (
-				702BA370168B9A75422328BA27F941F9 /* Sources */,
-				7DE7317970F9CF2F8CF2BFD903E86B71 /* Frameworks */,
-				6D3884776D369D2AB9C1151A0731E1CC /* Resources */,
-				83A0A3B729F9CD90C11CEFA0EF6A5BA7 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A3A8813EC724172AFD21E8D6B5D3AC09 /* PBXTargetDependency */,
-			);
-			name = MMChatBarDemo;
-			productName = MMChatBarDemo;
-			productReference = 6BFEAD044EB390B3CE0CD8697CBF6586 /* MMChatBarDemo.framework */;
+			productReference = 48DAE89D0E3B17C7412AF5E4F849039A /* FBSnapshotTestCase.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -517,36 +482,17 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 54F6E1923A44212C4234C2CF416C578C /* Products */;
+			productRefGroup = D64181E27BD6D27BC89BE6049605CD21 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				A5C935B614DD08342117AD0B06959CB9 /* FBSnapshotTestCase */,
-				E3D456227D7EA54D08C4152CFD344E56 /* MMChatBarDemo */,
-				608A94AF565BAAC9D4250C1B192EBAAB /* MMChatBarDemo-MMChatBarDemo */,
+				1B7B4AA76069C7C33E54373C92653D99 /* MMChatBarDemo */,
 				9D2DB5FF38D4402180FFD74AF16DF1BF /* Pods-MMChatBarDemo_Example */,
 				33F54F0166F76005F6FFB0B47FF92528 /* Pods-MMChatBarDemo_Tests */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		6D3884776D369D2AB9C1151A0731E1CC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B269BB677A5E39EA844DA99E1FA56848 /* MMChatBarDemo.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FD8468268B6786F781BFD0AD7B37C3BD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0934539B46630043961251719D207CBC /* Sources */ = {
@@ -572,15 +518,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		702BA370168B9A75422328BA27F941F9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				264ACE71F498052F3E5B1B004B8894B0 /* MMChatBarDemo-dummy.m in Sources */,
-				218EAAC1A91A512AC0EF5A9D77634764 /* ReplaceMe.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E864FE636868BE3E484BAE58D63B2FF9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -589,26 +526,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E88DCDFA646FCA005511CC72875D0914 /* Sources */ = {
+		EF711741DA901BF29B00AB345A86115A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14442D89B4A1B92E2CEF751C134F4195 /* MMCharBar.swift in Sources */,
+				DF4D35AAE384FFDD79099EE2C8713A0A /* MMChatBarDemo-dummy.m in Sources */,
+				C8955AF1D495D321AC120A2F5D045579 /* MMChatFaceView.swift in Sources */,
+				98EF58296B52D8A37975664AD36DB461 /* MMChatMoreView.swift in Sources */,
+				B9197C7E6D46AAC8B062C27F0DFF55AB /* MMFaceManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A3A8813EC724172AFD21E8D6B5D3AC09 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "MMChatBarDemo-MMChatBarDemo";
-			target = 608A94AF565BAAC9D4250C1B192EBAAB /* MMChatBarDemo-MMChatBarDemo */;
-			targetProxy = 2E60CBE37EFC9F448959B1278ED6498C /* PBXContainerItemProxy */;
-		};
 		B573926AD42586E0496843DE57883AD5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MMChatBarDemo;
-			target = E3D456227D7EA54D08C4152CFD344E56 /* MMChatBarDemo */;
+			target = 1B7B4AA76069C7C33E54373C92653D99 /* MMChatBarDemo */;
 			targetProxy = 5311B8470363C87333864AA3CC6062DD /* PBXContainerItemProxy */;
 		};
 		C939E55E18C4C62C2EBA466976511CC8 /* PBXTargetDependency */ = {
@@ -620,7 +556,7 @@
 		D24CBD324EF46CA10DB70B082D81ED1C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MMChatBarDemo;
-			target = E3D456227D7EA54D08C4152CFD344E56 /* MMChatBarDemo */;
+			target = 1B7B4AA76069C7C33E54373C92653D99 /* MMChatBarDemo */;
 			targetProxy = CDEB824C1CE0A489C6E61B25A19E3BF7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -717,15 +653,31 @@
 			};
 			name = Release;
 		};
-		5228441DDAE8CCD987B1D87D592B3C94 /* Debug */ = {
+		54FC0D9C36B9AA2782F19CB4D1588350 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A385A224F0C6DA028B11D4F728A86614 /* MMChatBarDemo.xcconfig */;
+			baseConfigurationReference = 9318F6353DDB9B9B0879A8DD1DE18409 /* MMChatBarDemo.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MMChatBarDemo/MMChatBarDemo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MMChatBarDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MMChatBarDemo/MMChatBarDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = MMChatBarDemo;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -767,18 +719,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
-		};
-		7DCDB602AD19A209EB2D365BDDB2C8A5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A385A224F0C6DA028B11D4F728A86614 /* MMChatBarDemo.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = MMChatBarDemo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
 		};
 		9263636507E5A6C750D7DB8581979EFE /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -830,33 +770,6 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_NAME = Pods_MMChatBarDemo_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		98EE90586A77E1E29F1BBF09F29C98F6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A385A224F0C6DA028B11D4F728A86614 /* MMChatBarDemo.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MMChatBarDemo/MMChatBarDemo-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MMChatBarDemo/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MMChatBarDemo/MMChatBarDemo.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = MMChatBarDemo;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -927,9 +840,9 @@
 			};
 			name = Debug;
 		};
-		F7AB94DEB02DAC428345FA2A7AC70CC4 /* Debug */ = {
+		C47DB72C958081AD0EFBA09453494E34 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A385A224F0C6DA028B11D4F728A86614 /* MMChatBarDemo.xcconfig */;
+			baseConfigurationReference = 9318F6353DDB9B9B0879A8DD1DE18409 /* MMChatBarDemo.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -944,16 +857,15 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/MMChatBarDemo/MMChatBarDemo.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = MMChatBarDemo;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -985,20 +897,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7A7CA3944205B9B18200DBC67A5A9002 /* Build configuration list for PBXNativeTarget "MMChatBarDemo-MMChatBarDemo" */ = {
+		98236D2939BCEB926284E0004350661C /* Build configuration list for PBXNativeTarget "MMChatBarDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5228441DDAE8CCD987B1D87D592B3C94 /* Debug */,
-				7DCDB602AD19A209EB2D365BDDB2C8A5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DCD5C0F9F2DB7B1568B22D3BFB936C30 /* Build configuration list for PBXNativeTarget "MMChatBarDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F7AB94DEB02DAC428345FA2A7AC70CC4 /* Debug */,
-				98EE90586A77E1E29F1BBF09F29C98F6 /* Release */,
+				54FC0D9C36B9AA2782F19CB4D1588350 /* Debug */,
+				C47DB72C958081AD0EFBA09453494E34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

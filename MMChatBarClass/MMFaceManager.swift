@@ -36,7 +36,7 @@ class MMFaceManager: NSObject {
         //1.创建一个可变的属性字符串
         var  attributeString:NSMutableAttributedString = NSMutableAttributedString(string: text)
         
-        
+        print("subStr:\(attributeString)")
         
         do{
             //2.通过正则表达式来匹配字符串
@@ -50,21 +50,16 @@ class MMFaceManager: NSObject {
             for match in resultArray{
                 //获取数组元素中得到range
                 let range:NSRange = match.range
-                
                 //获取元字符串中对应的值
-                var subStr:String = (text as NSString).substringWithRange(range)
+                let subStr:String = (text as NSString).substringWithRange(range)
                 
                 print("subStr:\(subStr)")
                 for dict in self.emojiFaceArrays{
-//                    print("subStr:\(subStr) dict：\(dict)")
+                    print("subStr:\(subStr) dict：\(dict)")
                 }
                 
             }
             
-            
-            
-        }catch{
-            print(error)
         }
         
         return attributeString
