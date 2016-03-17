@@ -19,17 +19,20 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/MMChatBarDemo"
+  s.homepage         = "https://github.com/Mqhong/MMChatBarDemo"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Mqhong" => "617257112@qq.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/MMChatBarDemo.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/Mqhong/MMChatBarDemo.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
+  s.source_files = 'MMChatBarDemo/*.swift'
+
+  # s.source_files = 'Pod/Classes/**/*'
+
   s.resource_bundles = {
     'MMChatBarDemo' => ['Pod/Assets/*.png']
   }

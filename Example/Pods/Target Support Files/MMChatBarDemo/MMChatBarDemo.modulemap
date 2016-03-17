@@ -1,0 +1,6 @@
+framework module MMChatBarDemo {
+  umbrella header "MMChatBarDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
